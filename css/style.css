@@ -156,7 +156,7 @@ a {
 
 @media (min-width: 800px) {
 	.header .nav {
-		all: unset;
+		all: initial;
 		grid-column: 3 / 4;
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -207,7 +207,8 @@ a {
 	text-transform: uppercase;
 	opacity: 0;
 	-webkit-transition: opacity 140ms ease-in-out;
-	transition: opacity 140ms ease-in-out
+    transition: opacity 140ms ease-in-out;
+	font-family: "Roboto", sans-serif;
 }
 
 @media (min-width: 800px) {
